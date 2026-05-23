@@ -148,6 +148,10 @@ function App() {
         <video ref={videoRef} autoPlay playsInline width={400}></video>
         <button onClick={startVideo}>Start video</button>
       </div>
+      <div>
+        <video ref={videoRef} autoPlay playsInline width={400}></video>
+        <button onClick={startVideo}>Start video</button>
+      </div>
     </>
   );
 }
